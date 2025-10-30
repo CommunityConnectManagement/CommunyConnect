@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "communityconnect",
+    "name": "Community Connect",
     "slug": "communityconnect",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -25,6 +25,11 @@
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4ac58f46-04ad-4e47-bbb1-e6d2c8814dd1"
+      }
     }
   }
 }
