@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
     color: "blue",
     height: "8%",
     width: "100%",
-    MarginBottom: 10,
+    marginBottom: 10,
     justifyContent: "center",
     alignItems: "center",
     
@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 16,
     marginTop: 20,
-    height: "10vh",
+    height: 80,
   },
   navBarGreet: {
     fontSize: 30,
