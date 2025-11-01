@@ -3,7 +3,7 @@ import { SafeAreaView, View, Text, TouchableOpacity, StyleSheet, Image, TextInpu
 
 
 
-export default function HomeScreen() {
+export default function HomeScreen({ navigation }) {
   return (
     
     <SafeAreaView style={styles.container}>
