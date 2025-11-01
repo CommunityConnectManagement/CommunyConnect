@@ -15,7 +15,7 @@ export default function App() {
         <View>
           <TouchableOpacity>
             <Image 
-              source={require('./assets/1757256402.png')} 
+              source={require('../assets/1757256402.png')} 
               style={{ width: 50, height: 50, borderRadius: 25}}
             />
           </TouchableOpacity>
@@ -26,7 +26,7 @@ export default function App() {
         <View style={styles.searchHolder}>
           <TextInput style={styles.searchInput} placeholder="search context or places" />
           <TouchableOpacity>
-            <Image source={require('./assets/filter.png')} style={styles.searchIcon} />
+            <Image source={require('../assets/filter.png')} style={styles.searchIcon} />
           </TouchableOpacity>
         </View>
       </View>
@@ -56,23 +56,23 @@ export default function App() {
 
       <View style={styles.pagesHolder}>
         <TouchableOpacity>
-          <Image source={require( './assets/home.png' )} style={styles.pagesIcon}/>
+          <Image source={require( '../assets/home.png' )} style={styles.pagesIcon}/>
         </TouchableOpacity>
 
         <TouchableOpacity>
-          <Image source={require('./assets/messages.png' )}  style={styles.pagesIcon}/>
+          <Image source={require('../assets/messages.png' )}  style={styles.pagesIcon}/>
         </TouchableOpacity>
 
         <TouchableOpacity>
-          <Image source={require( './assets/chat.png' )}  style={styles.pagesIcon}/>
+          <Image source={require( '../assets/chat.png' )}  style={styles.pagesIcon}/>
         </TouchableOpacity>
 
         <TouchableOpacity>
-          <Image source={require('./assets/tracking.png' )}  style={styles.pagesIcon}/>
+          <Image source={require('../assets/tracking.png' )}  style={styles.pagesIcon}/>
         </TouchableOpacity>
 
         <TouchableOpacity>
-          <Image source={require('./assets/setting.png')}  style={styles.pagesIcon}/>
+          <Image source={require('../assets/setting.png')}  style={styles.pagesIcon}/>
         </TouchableOpacity>
       </View>
     </SafeAreaView>
