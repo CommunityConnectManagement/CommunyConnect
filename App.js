@@ -1,8 +1,14 @@
 import React from 'react';
+import {NavigatorContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import { SafeAreaView, View, Text, TouchableOpacity, StyleSheet, Image, TextInput } from 'react-native';
+
+import EventScreen from './screens/EventScreen';
+
 
 export default function App() {
   return (
+    
     <SafeAreaView style={styles.container}>
       <View style={styles.navBar}>
         <View>
