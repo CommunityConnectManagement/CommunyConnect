@@ -59,8 +59,8 @@ export default function HomeScreen({ navigation }) {
           <Image source={require( '../assets/home.png' )} style={styles.pagesIcon}/>
         </TouchableOpacity>
 
-        <TouchableOpacity>
-          <Image source={require('../assets/messages.png' )}  style={styles.pagesIcon} onPress={() => navigation.navigate('EventScreen')}/>
+        <TouchableOpacity onPress={() => navigation.navigate('EventScreen')}>
+          <Image source={require('../assets/messages.png' )}  style={styles.pagesIcon}/>
         </TouchableOpacity>
 
         <TouchableOpacity>
