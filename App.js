@@ -61,7 +61,7 @@ export default function App() {
         </TouchableOpacity>
 
         <TouchableOpacity>
-          <Image source={require( './assets/chat-untouched.png' )}  style={styles.pagesIcon}/>
+          <Image source={require( './assets/chat.png' )}  style={styles.pagesIcon}/>
         </TouchableOpacity>
 
         <TouchableOpacity>
