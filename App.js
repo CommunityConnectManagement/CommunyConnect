@@ -6,7 +6,7 @@ import EventsScreen from './EventsScreen';
 
 const Stack = createNativeStackNavigator();
 
-export default function HomeScreen() {
+export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home" screenOptions={{ headerShown: false }}>
