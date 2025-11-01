@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Community Connect",
-    "slug": "CommunityConnect",
+    "slug": "communyconnect",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/hairstyle.png",
@@ -20,7 +20,8 @@
         "foregroundImage": "./assets/hairstyle.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.communyconnect"
     },
     "web": {
       "favicon": "./assets/hairstyle.png",

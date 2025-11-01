@@ -1,0 +1,36 @@
+# EAS Build ignore file (similar to .gitignore)
+# This file is used when EAS_NO_VCS=1 is set
+
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+web-build/
+.expo/
+
+# Git directory
+.git/
+
+# Cache
+.cache/
+.local/
+
+# Logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+
+# Environment files
+.env*.local
+
+# Replit files
+.replit
+replit.nix
+
+# Server proxy (not needed for mobile builds)
+server.js
