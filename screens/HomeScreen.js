@@ -3,7 +3,7 @@ import { SafeAreaView, View, Text, TouchableOpacity, StyleSheet, Image, TextInpu
 
 
 
-export default function App() {
+export default function HomeScreen() {
   return (
     
     <SafeAreaView style={styles.container}>
